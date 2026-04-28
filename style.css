@@ -1,0 +1,61 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: oklch(36.111% 0.17397 293.79);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #cd923a;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #88c02e;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Image */
+img {
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Footer */
+footer {
+    background-color: #36a546;
+    color: pink;
+    text-align: center;
+    padding: 10px;
+}
