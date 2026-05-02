@@ -1,61 +1,59 @@
-/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: oklch(36.111% 0.17397 293.79);
-    margin: 0;
-    padding: 0;
+font-family: Arial;
+background: hsl(198, 70%, 41%);
+display: flex;
+justify-content: center;
+padding: 30px;
 }
 
-/* Header */
-header {
-    background-color: #cd923a;
-    color: red;
-    text-align: center;
-    padding: 20px;
+.container {
+width: 400px;
+background: #e31bae;
+padding: 20px;
+border-radius: 10px;
 }
 
-/* Section */
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: blue;
-    border-radius: 10px;
+h1 {
+text-align: center;
 }
 
-/* Headings */
-h1, h2 {
-    color: #88c02e;
+.input-area {
+display: flex;
+gap: 10px;
 }
 
-/* Paragraph */
-p {
-    font-size: 16px;
-    line-height: 1.6;
+input {
+flex: 1;
+padding: 8px;
 }
 
-/* Image */
-img {
-    width: 300px;
-    border-radius: 10px;
-    display: block;
-    margin: 10px auto;
+button {
+padding: 8px;
+cursor: pointer;
 }
 
-/* Links */
-a {
-    color: blue;
-    text-decoration: none;
-    font-weight: bold;
+.task {
+display: flex;
+justify-content: space-between;
+background: #e1a91b;
+padding: 8px;
+margin-top: 10px;
+border-radius: 5px;
 }
 
-a:hover {
-    color: red;
+.task.completed span {
+text-decoration: line-through;
+color: rgb(75, 235, 26);
 }
 
-/* Footer */
-footer {
-    background-color: #36a546;
-    color: pink;
-    text-align: center;
-    padding: 10px;
+.actions button {
+margin-left: 5px;
+}
+
+.filters {
+margin-top: 10px;
+}
+
+.filters button {
+margin-right: 5px;
 }
